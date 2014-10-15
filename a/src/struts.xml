@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+<include file="struts-default.xml"/>
+<package name="a" extends="struts-default">
+
+
+<action name="searchauthor" class="a.action" method="searchauthor">
+	<result >Search author.jsp</result>
+</action>
+
+<action name="searchbook" class="a.action" method="searchbook">
+	<result >Book.jsp</result>
+</action>
+
+<action name="deletebook" class="a.action" method="deletebook">
+	<result >Select.jsp</result>
+</action>
+</package>
+</struts>
